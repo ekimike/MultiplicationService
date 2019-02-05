@@ -25,7 +25,7 @@ public class MultiplicationServiceTest {
 	@Autowired
 	private MultiplicationService multiplicationService;
 	
-	
+	/*
 	@Test
 	public void test() {
 		//given
@@ -39,7 +39,7 @@ public class MultiplicationServiceTest {
 		assertThat(multiplication.getFactorA()).isEqualTo(50);
 		assertThat(multiplication.getFactorB()).isEqualTo(30);
 		assertThat(multiplication.getResult()).isEqualTo(15002);
-	}
+	}*/
 	
 	
 

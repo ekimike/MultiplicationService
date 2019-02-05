@@ -15,21 +15,17 @@ import lombok.ToString;
 @ToString
 @EqualsAndHashCode
 @Entity
-public final class Multiplication {
-	
+public final class User {
+
 	@Id
 	@GeneratedValue
-	@Column(name = "MULTIPLICATION_ID")
+	@Column(name = "USER_ID")
 	private Long id;
 	
-	private final int factorA;
-	private final int factorB;
+	private final String alias;
 	
-	// Empty constructor for JSON (de)serialization
-	Multiplication() {
-		this(0, 0);
+	protected User() {
+		alias = null;
 	}
-
 	
-
 }
